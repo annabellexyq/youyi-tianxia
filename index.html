@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>游医天下 · 白描山水叙事</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- 标题屏 -->
+  <div id="title" class="screen on">
+    <div class="sub">明清之交 · 瘟疫流行</div>
+    <h1>游醫天下</h1>
+    <div class="br"></div>
+    <div class="sub">妙用中医四大经典 · 五脏五色组方</div>
+    <button class="start" id="startBtn">入 卷</button>
+    <div class="leaf">内容为虚构，如有雷同纯属巧合</div>
+  </div>
+
+  <!-- 世界地图屏（上帝视角） -->
+  <div id="mapScreen" class="screen">
+    <div class="map-wrap" id="mapWrap"></div>
+    <div class="map-title"><b>天下疫图</b><span>上帝视角 · 点击地点入其境</span></div>
+    <div class="map-hint">循河而上，九境次第解锁。每境拟方，皆生不同的空间、服化与命运。</div>
+  </div>
+
+  <!-- 场景屏 -->
+  <div id="sceneScreen" class="screen">
+    <div class="scene-art" id="sceneArt"></div>
+    <div class="scene-veil"></div>
+    <div class="scene-panel" id="scenePanel"></div>
+  </div>
+
+  <!-- 结局屏 -->
+  <div id="endScreen" class="screen">
+    <div class="inner"></div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="data.js"></script>
+  <script src="art.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
